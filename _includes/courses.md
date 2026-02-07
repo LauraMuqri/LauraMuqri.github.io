@@ -6,7 +6,7 @@ permalink: /courses/
 
 {% for course in site.data.courses.main %}
 <div class="course-card">
-  <h3>📘 {{ course.title }}</h3>
+  <h3> {{ course.title }}</h3>
   <p><strong>{{ course.code }}</strong> — {{ course.program }}</p>
 
   {% if course.image %}
@@ -14,7 +14,7 @@ permalink: /courses/
   {% endif %}
 
   <p>
-    <a href="{{ course.page }}">🧠 Course page</a>
+    <a href="{{ course.page }}"> Course page</a>
     {% if course.notes %}
       · <em>{{ course.notes }}</em>
     {% endif %}
