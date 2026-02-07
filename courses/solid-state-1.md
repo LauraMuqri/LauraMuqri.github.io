@@ -6,12 +6,12 @@ layout: course
 permalink: /courses/solid-state-1/
 ---
 
-## 🧠 Course Overview
+## Course Overview
 This course introduces the fundamental principles of solid-state physics, with a focus on the structural, thermal, electrical, and magnetic properties of crystalline solids. Topics include crystal structures, reciprocal lattices, atomic bonding, lattice vibrations and phonons, defects in solids, X-ray diffraction, magnetic properties of materials, and the classical free-electron theory of metals. 
 
 ---
 
-## 📘 Lecture Slides
+## Lecture Slides
 - [Lecture 1 – Crystal Structure](/assets/slides/solid-state-1/L1.pdf)
 - [Lecture 2 – Cubic & HCP Structures](/assets/slides/solid-state-1/L2.pdf) 
 - [Lecture 3 – Miller Indices](/assets/slides/solid-state-1/L3.pdf)
@@ -24,13 +24,13 @@ This course introduces the fundamental principles of solid-state physics, with a
 - [Lecture 10 – The Drude Theory of Metals](/assets/slides/solid-state-1/L10.pdf)
 ---
 
-## 🧪 Problem Sets
+## Problem Sets
 - [Problem Set 1](/assets/pdf/solid-state-1/ps1.pdf)
 - [Problem Set 2](/assets/pdf/solid-state-1/ps2.pdf)
 
 ---
 
-## 🧠 Projects
+## Projects
 - Crystal structure visualization using Python
 - Band structure calculation
 
