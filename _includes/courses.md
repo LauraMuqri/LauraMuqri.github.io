@@ -1,24 +1,28 @@
----
-layout: page
-title: Courses
-permalink: /courses/
----
-
 {% for course in site.data.courses.main %}
-<div class="course-card">
-  <h3> {{ course.title }}</h3>
-  <p><strong>{{ course.code }}</strong> — {{ course.program }}</p>
+<div class="publication">
 
   {% if course.image %}
-  <img src="{{ course.image }}" alt="{{ course.title }}" style="max-width:300px;">
+  <div class="publication-image-wrapper">
+    <img src="{{ course.image }}" class="publication-image">
+    <span class="conference-short">{{ course.code }}</span>
+  </div>
   {% endif %}
 
-  <p>
-    <a href="{{ course.page }}"> Course page</a>
-    {% if course.notes %}
-      · <em>{{ course.notes }}</em>
-    {% endif %}
-  </p>
+  <div class="publication-text">
+    <span class="publication-title">
+       {{ course.title }}
+    </span>
+
+    <div class="publication-authors">
+      {{ course.program }}
+    </div>
+
+    <div class="publication-links">
+      <a href="{{ course.page }}"> Course page</a>
+      {% if course.notes %} · <em>{{ course.notes }}</em>{% endif %}
+    </div>
+  </div>
+
 </div>
-<hr>
 {% endfor %}
+
