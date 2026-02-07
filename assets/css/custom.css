@@ -1,1 +1,24 @@
+/* === FORCE minimal-light publication layout === */
+.publication {
+  display: flex;
+  align-items: flex-start;
+}
+
+.publication-image {
+  width: 120px;
+  min-width: 120px;
+  margin-right: 20px;
+}
+
+.publication-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.conference-short {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
 
