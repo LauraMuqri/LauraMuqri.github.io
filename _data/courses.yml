@@ -7,7 +7,7 @@ main:
     pdf: ./courses/solid-state-1.md
     code: https://github.com/MrGiovanni/ContinualLearning
     bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
+    image: ./assets/img/ssp.jpg
     notes: Active
 
   - title: Mathematical Physics I
@@ -16,10 +16,10 @@ main:
     conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
     pdf: ./courses/math-physics-1.md
     code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    #page: ./courses/math-physics-1.md
-    #bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    page: ./courses/math-physics-1.md
+    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Active
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/testout.jpg
 
  - title: Mathematical Physics 
     authors: Physics Program, Spring 2026
@@ -28,5 +28,5 @@ main:
     pdf: ./courses/math-physics.md
     code: https://github.com/MrGiovanni/ContinualLearning
     bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
+    image: ./assets/img/mmp.jpg
     notes: Active
