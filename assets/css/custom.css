@@ -1,4 +1,4 @@
-/* === FORCE minimal-light publication layout === */
+/* Publication layout fixes */
 .publication {
   display: flex;
   align-items: flex-start;
@@ -8,6 +8,7 @@
   width: 120px;
   min-width: 120px;
   margin-right: 20px;
+  position: relative; /* REQUIRED for overlay */
 }
 
 .publication-image img {
@@ -21,4 +22,11 @@
   top: 6px;
   left: 6px;
 }
+
+/* Status text styling */
+.publication-links em {
+  color: #c0392b;
+  font-style: italic;
+}
+
 
