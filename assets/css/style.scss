@@ -1,23 +1,34 @@
 ---
 ---
 @import "minimal-light";
-/* ===== Center header content ===== */
-header {
+/* ===== TRUE avatar centering ===== */
+
+/* Center the avatar container itself */
+header .image.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Center the image inside */
+header .image.avatar img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Center the name text */
+header h1 {
   text-align: center;
 }
 
-/* Center avatar block */
-.image.avatar {
-  margin-left: auto;
-  margin-right: auto;
+/* Center position / affiliation text */
+header position,
+header autocolor,
+header email {
   display: block;
+  text-align: center;
 }
-
-/* Ensure name aligns perfectly under avatar */
-header h1 {
-  margin-top: 0.8rem;
-}
-
 
 /* ===== Avatar size override ===== */
 .image.avatar {
