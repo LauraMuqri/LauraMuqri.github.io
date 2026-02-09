@@ -1,6 +1,23 @@
 ---
 ---
 @import "minimal-light";
+/* ===== Center header content ===== */
+header {
+  text-align: center;
+}
+
+/* Center avatar block */
+.image.avatar {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* Ensure name aligns perfectly under avatar */
+header h1 {
+  margin-top: 0.8rem;
+}
+
 
 /* ===== Avatar size override ===== */
 .image.avatar {
