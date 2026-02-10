@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mathematical Physics I
+title: Mathematical Physics 
 permalink: /courses/math-phys/
 ---
 # Mathematical Physics 
