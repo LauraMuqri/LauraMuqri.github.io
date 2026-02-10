@@ -1,9 +1,14 @@
 ---
-layout: course
+layout: page
 title: Mathematical Physics I
 code: PHYS-254
 semester: Spring 2026
 permalink: /courses/math-phys-1/
+---
+# Mathematical Physics I
+
+**PHYS-254 · Spring 2026**
+
 ---
 
 ## Course Overview
