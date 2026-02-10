@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mathematical Physics I
+title: Solid State Physics I
 permalink: /courses/solid-state-1/
 ---
 # Solid State Physics I
