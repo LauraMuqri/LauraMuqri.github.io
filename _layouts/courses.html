@@ -1,0 +1,16 @@
+---
+layout: page
+---
+
+<h1>{{ page.title }}</h1>
+
+{% if page.code or page.semester %}
+<p style="color:#666;">
+  {% if page.code %}<strong>{{ page.code }}</strong>{% endif %}
+  {% if page.semester %} · {{ page.semester }}{% endif %}
+</p>
+{% endif %}
+
+<hr>
+
+{{ content }}
