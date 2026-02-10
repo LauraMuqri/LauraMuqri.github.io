@@ -16,7 +16,7 @@ main:
     conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
     pdf: https://arxiv.org/pdf/2002.10211.pdf
     code: https://github.com/LauraMuqri/Mathematical-Physics
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    page: /courses/math-phys-1/
     #bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Active
     image: ./assets/img/teaser_example.png
