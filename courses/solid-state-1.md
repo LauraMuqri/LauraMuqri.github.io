@@ -1,9 +1,10 @@
 ---
-layout: homepage
+layout: page
 title: Solid State Physics I
 permalink: /courses/solid-state-1/
-hide_home_sections: true
 ---
+# Mathematical Physics I
+
 **PHYS-371 · Spring 2026**
 ---
 
