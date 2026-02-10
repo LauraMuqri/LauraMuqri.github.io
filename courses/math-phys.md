@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mathematical Physics I
-permalink: /courses/math-phys-1/
+permalink: /courses/math-phys/
 ---
 # Mathematical Physics 
 
