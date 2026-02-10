@@ -25,22 +25,12 @@
       <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       {% endif %}
      <div class="publication-links">
-  {% if link.Syllabus %}
-    <a href="{{ link.Syllabus }}">Syllabus</a>
-  {% endif %}
-
-  {% if link.LectureNotes %}
-    <a href="{{ link.LectureNotes }}">Lecture Notes</a>
-  {% endif %}
-
-  {% if link.Codes %}
-    <a href="{{ link.Codes }}">Codes</a>
-  {% endif %}
-
-  {% if link.notes %}
-    <em>{{ link.notes }}</em>
-  {% endif %}
-</div>
+  <div class="publication-links">
+      {% if link.pdf %}<a href="{{ link.pdf }}">PDF</a>{% endif %}
+      {% if link.code %}<a href="{{ link.code }}">Code</a>{% endif %}
+      {% if link.page %}<a href="{{ link.page }}">Project Page</a>{% endif %}
+      {% if link.bibtex %}<a href="{{ link.bibtex }}">BibTeX</a>{% endif %}
+  </div>
 
       {% if link.others %} 
       {{ link.others }}
