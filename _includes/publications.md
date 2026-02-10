@@ -1,34 +1,57 @@
-{% for link in site.data.publications.main %}
-<div class="publication">
+<h2 id="publications" style="margin: 2px 0px -15px;">Courses</h2>
 
-  {% if link.image %}
-  <div class="publication-image">
-    <img src="{{ link.image }}" alt="{{ link.title }}">
-    {% if link.conference_short %}
-    <span class="conference-short">{{ link.conference_short }}</span>
+<div class="publications">
+<ol class="bibliography">
+
+{% for link in site.data.publications.main %}
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    {% if link.image %} 
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+    {% if link.conference_short %} 
+    <abbr class="badge">{{ link.conference_short }}</abbr>
+    {% endif %}
     {% endif %}
   </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+      <div class="author">{{ link.authors }}</div>
+      <div class="periodical"><em>{{ link.conference }}</em>
+      </div>
+    <div class="links">
+      {% if link.pdf %} 
+      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      {% endif %}
+     <div class="publication-links">
+  {% if link.Syllabus %}
+    <a href="{{ link.Syllabus }}">Syllabus</a>
   {% endif %}
 
-  <div class="publication-text">
-    <span class="publication-title">{{ link.title }}</span>
+  {% if link.LectureNotes %}
+    <a href="{{ link.LectureNotes }}">Lecture Notes</a>
+  {% endif %}
 
-    <div class="publication-authors">
-      {{ link.authors }}
-    </div>
+  {% if link.Codes %}
+    <a href="{{ link.Codes }}">Codes</a>
+  {% endif %}
 
-    <div class="publication-venue">
-      {{ link.conference }}
-    </div>
+  {% if link.notes %}
+    <em>{{ link.notes }}</em>
+  {% endif %}
+</div>
 
-    <div class="publication-links">
-      {% if link.pdf %}<a href="{{ link.pdf }}">PDF</a>{% endif %}
-      {% if link.code %}<a href="{{ link.code }}">Code</a>{% endif %}
-      {% if link.page %}<a href="{{ link.page }}">Page</a>{% endif %}
-      {% if link.bibtex %}<a href="{{ link.bibtex }}">BibTeX</a>{% endif %}
-      {% if link.notes %}<em>{{ link.notes }}</em>{% endif %}
+      {% if link.others %} 
+      {{ link.others }}
+      {% endif %}
     </div>
   </div>
-
 </div>
+</li>
+<br>
+
 {% endfor %}
+
+</ol>
+</div>
