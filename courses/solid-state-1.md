@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mathematical Physics I
-permalink: /courses/math-phys-1/
+permalink: /courses/solid-state-1/
 ---
 # Solid State Physics I
 
@@ -14,15 +14,15 @@ This course introduces the fundamental principles of solid-state physics, with a
 ---
 
 ## Lecture Slides
-- [Lecture 1 – Crystal Structure](/assets/slides/solid-state-1/L1.pdf)
-- [Lecture 2 – Cubic & HCP Structures](/assets/slides/solid-state-1/L2.pdf) 
-- [Lecture 3 – Miller Indices](/assets/slides/solid-state-1/L3.pdf)
-- [Lecture 4 – Diffraction from a crystal & The Reciprocal Lattice](/assets/slides/solid-state-1/L4.pdf)
-- [Lecture 5 – Brillouin Zones](/assets/slides/solid-state-1/L5.pdf)
-- [Lecture 6 – Crystal Binding](/assets/slides/solid-state-1/L6.pdf)
-- [Lecture 7 – Defects in Solids](/assets/slides/solid-state-1/L7.pdf)
-- [Lecture 8 – Crystal Dynamics - Phonons](/assets/slides/solid-state-1/L8.pdf)
-- [Lecture 9 – Magnetic Properties of Materials](/assets/slides/solid-state-1/L9.pdf)
+- [Lecture 01 – Crystal Structure](/assets/slides/solid-state-1/L1.pdf)
+- [Lecture 02 – Cubic & HCP Structures](/assets/slides/solid-state-1/L2.pdf)
+- [Lecture 03 – Miller Indices](/assets/slides/solid-state-1/L3.pdf)
+- [Lecture 04 – Diffraction from a crystal & The Reciprocal Lattice](/assets/slides/solid-state-1/L4.pdf)
+- [Lecture 05 – Brillouin Zones](/assets/slides/solid-state-1/L5.pdf)
+- [Lecture 06 – Crystal Binding](/assets/slides/solid-state-1/L6.pdf)
+- [Lecture 07 – Defects in Solids](/assets/slides/solid-state-1/L7.pdf)
+- [Lecture 08 – Crystal Dynamics – Phonons](/assets/slides/solid-state-1/L8.pdf)
+- [Lecture 09 – Magnetic Properties of Materials](/assets/slides/solid-state-1/L9.pdf)
 - [Lecture 10 – The Drude Theory of Metals](/assets/slides/solid-state-1/L10.pdf)
 ---
 
