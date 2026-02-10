@@ -2,6 +2,7 @@
 layout: page
 title: Mathematical Physics I
 permalink: /courses/math-phys-1/
+hide_home_sections: true
 ---
 # Mathematical Physics I
 
