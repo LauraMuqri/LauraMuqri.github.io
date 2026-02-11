@@ -8,7 +8,7 @@ main:
     page: /courses/solid-state-1/
     code: https://github.com/LauraMuqri/Solid-State-Physics
     #bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/ssp3.jpg
+    image: ./assets/img/testspp.jpg
     notes: Active
 
   - title: Mathematical Physics I
@@ -20,7 +20,7 @@ main:
     code: https://github.com/LauraMuqri/Mathematical-Physics
     #bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Active
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/math1.jpg
 
   - title: Mathematical Physics
     authors: Physics Program, Spring 2026
@@ -30,5 +30,5 @@ main:
     page: /courses/math-phys/
     code: https://github.com/LauraMuqri/Mathematical-Physics
     #bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/testout.jpg
+    image: ./assets/img/mathphy.jpg
     notes: Active
