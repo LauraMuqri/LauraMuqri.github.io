@@ -8,7 +8,7 @@ main:
     page: /courses/solid-state-1/
     code: https://github.com/LauraMuqri/Solid-State-Physics
     #bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
+    image: ./assets/img/testspp.jpeg
     notes: Active
 
   - title: Mathematical Physics I
