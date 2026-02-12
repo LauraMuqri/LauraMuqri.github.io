@@ -14,7 +14,7 @@ main:
   - title: Mathematical Physics I
     authors: Renewable Energy Physics Program, Spring 2026
     conference_short: PHYS-254
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
+    conference: Infinite Series & Power Series, Complex Numbers, Linear Algebra, Multivariable Integration, ODEs
     pdf: https://arxiv.org/pdf/2002.10211.pdf
     page: /courses/math-phys-1/
     code: https://github.com/LauraMuqri/Mathematical-Physics
@@ -25,7 +25,7 @@ main:
   - title: Mathematical Physics
     authors: Physics Program, Spring 2026
     conference_short: PHYS-252
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
+    conference: Complex Numbers, Linear Algebra, Fourier Series & Fourier Integrals, Special Functions
     #pdf: https://arxiv.org/pdf/2306.00988.pdf
     page: /courses/math-phys/
     code: https://github.com/LauraMuqri/Mathematical-Physics
