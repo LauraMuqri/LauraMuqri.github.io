@@ -3,7 +3,7 @@ main:
   - title: Solid State Physics I
     authors: Physics Program, Spring 2026 
     conference_short: PHYS-371
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
+    conference: Crystal Structure, Reciprocal Lattice, Atomic Bonding, Phonons, Defects, Magnetic Properties, Drude Theory
     pdf: https://arxiv.org/pdf/2306.00988.pdf
     page: /courses/solid-state-1/
     code: https://github.com/LauraMuqri/Solid-State-Physics
