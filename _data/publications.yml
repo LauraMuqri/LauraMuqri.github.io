@@ -5,7 +5,7 @@ main:
     conference_short: PHYS-371
     conference: Crystal Structure, Reciprocal Lattice, Atomic Bonding, Phonons, Defects, Magnetic Properties, Drude Theory
     pdf: https://arxiv.org/pdf/2306.00988.pdf
-    page: /courses/solid-state-1/
+    #page: /courses/solid-state-1/
     code: https://github.com/LauraMuqri/Solid-State-Physics
     #bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/testspp.jpg
@@ -16,7 +16,7 @@ main:
     conference_short: PHYS-254
     conference: Infinite Series & Power Series, Complex Numbers, Linear Algebra, Multivariable Integration, ODEs
     pdf: https://arxiv.org/pdf/2002.10211.pdf
-    page: /courses/math-phys-1/
+    #page: /courses/math-phys-1/
     code: https://github.com/LauraMuqri/Mathematical-Physics
     #bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Active
